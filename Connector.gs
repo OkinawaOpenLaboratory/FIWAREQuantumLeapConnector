@@ -255,7 +255,7 @@ function getData(request){
 }
 
 function getDataFromApi(request) {
-  var url = request.configParams.quantumleapUrl + "/v2/entities/" + request.configParams.entityId + "?limit=1000";
+  var url = request.configParams.quantumleapUrl + "/v2/entities/" + request.configParams.entityId";
   var options = {
     method: "get",
     headers: {
